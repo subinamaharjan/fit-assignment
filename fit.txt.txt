@@ -1,0 +1,26 @@
+#include<stdio.h>
+#include<conio.h>
+int i;
+void input(int *p1,int n)
+void display(int *p2,int n)
+void main()
+{
+int a[100],*ptr,n;
+ptr=a;
+printf("enter the sixe of an array");
+scanf("%d",&n);
+printf("enter %d elements in an array");
+input(ptr,n);
+printf("the data elements in an array are:\n);
+display(ptr,n);
+getch();
+}
+void input(int *p1,int n)
+{
+for(i=0;i<n;i++)
+{
+scanf("%d",(p1+i));
+}
+}
+void display(int *p2,int n)
+{
