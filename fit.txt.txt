@@ -1,8 +1,9 @@
 #include<stdio.h>
 #include<conio.h>
 int i;
-void input(int *p1,int n)
-void display(int *p2,int n)
+void input(int *p1,int n);
+void display(int *p2,int n);
+void minmax(int *p3,int n);
 void main()
 {
 int a[100],*ptr,n;
@@ -29,4 +30,5 @@ for(i=0;i<n;i++)
 printf("%d\t",*(p2+i));
 }
 }
+
 
