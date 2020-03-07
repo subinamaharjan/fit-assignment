@@ -31,5 +31,11 @@ printf("%d\t",*(p2+i));
 }
 void minmax(int *p3,int n)
 {
+if(max<*(p3+i))
+max=*(p3+i);
+}
+printf("the maximum value is %d\nthe minimum value is %d",max,min);
+}
+
 
 
