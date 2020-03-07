@@ -39,6 +39,11 @@ for(i=0;i<n;i++)
 {
 if(min>*(p3+i))
 min=*(p3+i);
+if(max<*(p3+i))
+max=*(p3+i);
+}
+printf("the maximum value is %d\nthe minimum value is %d",max,min);
+}
 
 
 
