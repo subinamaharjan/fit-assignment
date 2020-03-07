@@ -24,3 +24,9 @@ scanf("%d",(p1+i));
 }
 void display(int *p2,int n)
 {
+for(i=0;i<n;i++)
+{
+printf("%d\t",*(p2+i));
+}
+}
+
